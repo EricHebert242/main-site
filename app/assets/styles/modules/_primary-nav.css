@@ -39,7 +39,7 @@
     }
 
     a {
-        color: #fff;
+        color: $lightBlue;
         font-weight: 300;
         text-decoration: none;
         display: block;
@@ -51,13 +51,14 @@
             font-size: 1rem;
             padding: 12px 0;
             background-color: transparent;
+            transition: color 0.5s ease-in-out;
 
             &.is-current-link {
-                color: #fabb69;
+                color: $mainOrange;
             }
 
             &:hover {
-                color: #fabb69;
+                color: $mainOrange;
             }
         }
     }

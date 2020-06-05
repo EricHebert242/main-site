@@ -3,19 +3,22 @@
     position: fixed;
     width: 100%;
     z-index: 2;
-    background-color: rgba(55,55,55, 0.55);
+    background-color: rgba(50,50,50, 0.55);
 
     &__name {
-        color: black;
+        color: $mainBlue;
         position: absolute;
         padding-left: 15px;
+        font-size: 1.10rem;
     }
 
     &__title {
         color: darkgray;
         position: absolute;
-        padding-left: 15px;
+        padding-left: 25px;
         top: 30px;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: 300;
     }
 
     &__menu-content {
