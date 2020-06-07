@@ -1,9 +1,18 @@
 .site-header {
     padding: 10px 0;
-    position: fixed;
+    position: absolute;
     width: 100%;
     z-index: 2;
     background-color: rgba(50,50,50, 0.55);
+
+    &--is-expanded {
+        background-color: rgba(50,50,50, .55);    
+    }
+
+    @mixin atMedium {
+        position: fixed;
+        background-color: rgba(50,50,50, .3);
+    }
 
     &__name {
         color: $mainBlue;
@@ -41,6 +50,67 @@
             opacity: 1;
             z-index: 1;
             transform: scale(1);
+        }
+    }
+
+    &__menu-icon {
+        width: 20px;
+        height: 19px;
+        position: absolute;
+        z-index: 10;
+        top: 10px;
+        right: 10px;
+
+        &::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 20px;
+            height: 3px;
+            background-color: #FFF;
+            transform-origin: 0 0;
+            transition: transform .3s ease-out;
+        }
+
+        &__middle {
+            position: absolute;
+            top: 8px;
+            left: 0;
+            width: 20px;
+            height: 3px;
+            background-color: #FFF;
+            transition: all .3s ease-out;
+            /*transform-origin: 0 50%;*/
+        }
+
+        &::after {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 20px;
+            height: 3px;
+            background-color: #FFF;
+            transform-origin: 0 100%;
+            transition: transform .3s ease-out;
+        }
+
+        @mixin atMedium {
+            display: none;
+        }
+    }
+
+    &__menu-icon--close-x {
+        &::before {
+            transform: rotate(45deg) scaleX(1.25);
+        }
+        &::after {
+            transform: rotate(-45deg) scaleX(1.25) translateY(1px);
+        }
+        .site-header__menu-icon__middle {
+            opacity: 0;
+            transform: scaleX(0);
         }
     }
 }
