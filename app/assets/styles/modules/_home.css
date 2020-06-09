@@ -11,7 +11,7 @@
         @mixin atMedium {
             padding-top: 25px;
             padding-left: 50px;
-            max-width: 400px;
+            max-width: 500px;
         }
     }
 }

@@ -44,8 +44,12 @@
         text-decoration: none;
         display: block;
         padding: 5px 8px;
-        font-size: .8rem;
+        font-size: .9rem;
         background-color: rgba($mainBlue, .5);
+
+        &:hover {
+            color: $mainOrange;
+        }
 
         @mixin atMedium {
             font-size: 1rem;
@@ -54,10 +58,6 @@
             transition: color 0.5s ease-in-out;
 
             &.is-current-link {
-                color: $mainOrange;
-            }
-
-            &:hover {
                 color: $mainOrange;
             }
         }
