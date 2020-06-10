@@ -39,7 +39,7 @@
     }
 
     a {
-        color: $lightBlue;
+        color: $mainLightBlue;
         font-weight: 300;
         text-decoration: none;
         display: block;

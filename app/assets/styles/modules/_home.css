@@ -1,17 +1,31 @@
 .home {
-    font-family: 'Courier New', Courier, monospace;
-    line-height: 1.35rem;
-    color: rgb(125,125,125);
-    padding-top: 125px;
-    padding-left: 15px;
-    padding-right: 10px;
-    max-width: 100%;
+    position: relative;
+    background-color: #000;
+    min-height: 350px;
 
-    &--description {
-        @mixin atMedium {
-            padding-top: 25px;
-            padding-left: 50px;
-            max-width: 500px;
+    &__image {
+        display: block;
+        max-height: 500px;
+    }
+
+    &__content {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        
+        &__description {
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 1rem;
+            color: rgb(125,125,125);
+            line-height: 1rem;
+            padding: 0 10px;
+
+            @mixin atMedium {
+                line-height: 1.35rem;
+                padding-top: 25px;
+                padding-left: 50px;
+                max-width: 500px;
+            }
         }
     }
 }
