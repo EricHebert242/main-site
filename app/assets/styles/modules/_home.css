@@ -2,6 +2,9 @@
     position: relative;
     background-color: #000;
     min-height: 350px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1rem;
+    color: rgb(125,125,125);
 
     &__image {
         display: block;
@@ -14,9 +17,6 @@
         transform: translateY(-50%);
         
         &__description {
-            font-family: 'Courier New', Courier, monospace;
-            font-size: 1rem;
-            color: rgb(125,125,125);
             line-height: 1rem;
             padding: 0 10px;
 

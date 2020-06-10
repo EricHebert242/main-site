@@ -1,0 +1,58 @@
+.portfolios {
+    color: rgb(125,125,125);
+    background-color: $mainDarkBlue;
+    height: 400px;
+    padding-top: 1px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    color: rgb(185,185,185);
+
+    &__content {
+        margin: 0 10px;
+    }
+
+    &__title {
+        font-family: 'Roboto', sans-serif;
+        font-Size: 2rem;
+        font-weight: 300;
+        margin: .5rem 0;
+    
+        @mixin atMedium {
+            font-Size: 2.8125rem;
+        }
+    }
+
+    &__subtitle {
+        font-family: 'Roboto', sans-serif;
+        font-Size: 1.2rem;
+        font-weight: 300;
+        margin: .5rem 0;
+        letter-spacing: -1px;
+
+        @mixin atMedium {
+            font-Size: 1.6rem;
+        }
+    }    
+
+    &__description {
+        font-Family: 'Lato', Sans-Serif;
+        font-Size: .85rem;
+
+        @mixin atMedium {
+            font-Size: 1rem;
+        }
+    }
+}
+
+
+/* font-family: 'Raleway',Helvetica,Arial,Lucida,sans-serif; */
+/* Title
+    Font-Family: 'Roboto', Sans-Serif;
+    Font-Size: 2.8125rem;
+    font-weight: 300;
+*/
+/* paragraph
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    Font-Family: 'Lato', Sans-Serif;
+    Font-Size: 16px;
+*/
