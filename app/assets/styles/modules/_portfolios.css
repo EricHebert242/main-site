@@ -4,42 +4,52 @@
     height: 400px;
     padding-top: 1px;
     font-family: 'Roboto', sans-serif;
-    font-size: 1rem;
     color: rgb(185,185,185);
 
     &__content {
-        margin: 0 10px;
+        margin: 15px 10px 0 10px;
     }
 
     &__title {
-        font-family: 'Roboto', sans-serif;
-        font-Size: 2rem;
-        font-weight: 300;
-        margin: .5rem 0;
-    
-        @mixin atMedium {
-            font-Size: 2.8125rem;
-        }
+        font-size: 1.1rem;
+        padding: 10px 0 0 10px;
     }
 
-    &__subtitle {
-        font-family: 'Roboto', sans-serif;
-        font-Size: 1.2rem;
-        font-weight: 300;
-        margin: .5rem 0;
-        letter-spacing: -1px;
-
-        @mixin atMedium {
-            font-Size: 1.6rem;
+    &__1 {
+        padding-left: 10px;
+        border-left: 5px solid $mainOrangeDark;
+    
+        &__title {
+            font-family: 'Roboto', sans-serif;
+            font-Size: 2rem;
+            font-weight: 200;
+            margin: .5rem 0 0 0;
+            color: $mainLightBlue;
+        
+            @mixin atMedium {
+                font-Size: 2.4rem;
+            }
         }
-    }    
-
-    &__description {
-        font-Family: 'Lato', Sans-Serif;
-        font-Size: .85rem;
-
-        @mixin atMedium {
-            font-Size: 1rem;
+    
+        &__subtitle {
+            font-family: 'Courier', sans-serif;
+            font-Size: 1.2rem;
+            font-weight: 200;
+            margin: 0;
+            letter-spacing: -1px;
+    
+            @mixin atMedium {
+                font-Size: 1.4rem;
+            }
+        }    
+    
+        &__description {
+            font-Family: 'Courier', Sans-Serif;
+            font-Size: .85rem;
+    
+            @mixin atMedium {
+                font-Size: 1rem;
+            }
         }
     }
 }
