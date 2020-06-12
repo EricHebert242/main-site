@@ -1,8 +1,9 @@
 .portfolios {
     color: rgb(125,125,125);
     background-color: $mainDarkBlue;
-    height: 400px;
+    height: auto;
     padding-top: 1px;
+    padding-bottom: 20px;
     font-family: 'Roboto', sans-serif;
     color: rgb(185,185,185);
 
@@ -16,7 +17,46 @@
     }
 
     &__1 {
-        padding-left: 10px;
+        padding: 5px 0 10px 10px;
+        border-left: 5px solid $mainOrangeDark;
+    
+        &__title {
+            font-family: 'Roboto', sans-serif;
+            font-Size: 2rem;
+            font-weight: 200;
+            margin: .5rem 0 0 0;
+            color: $mainLightBlue;
+        
+            @mixin atMedium {
+                font-Size: 2.4rem;
+            }
+        }
+    
+        &__subtitle {
+            font-family: 'Courier', sans-serif;
+            font-Size: 1.2rem;
+            font-weight: 200;
+            margin: 0;
+            letter-spacing: -1px;
+    
+            @mixin atMedium {
+                font-Size: 1.4rem;
+            }
+        }    
+    
+        &__description {
+            font-Family: 'Courier', Sans-Serif;
+            font-Size: .85rem;
+    
+            @mixin atMedium {
+                font-Size: 1rem;
+            }
+        }
+    }
+
+    &__2 {
+        padding: 5px 0 10px 10px;
+        margin-top: 20px;
         border-left: 5px solid $mainOrangeDark;
     
         &__title {
