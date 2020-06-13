@@ -1,18 +1,13 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900&display=swap');
-
 /* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
 }*/
 
-/*body {
+/* parent need this {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #222;
-    min-height: 100vh;
 }*/
 
 .container {
@@ -96,7 +91,7 @@
 
 .container .card .content h3 {
     margin-bottom: 5px;
-    font-size: 24px;
+    font-size: 22px;
 }
 
 .container .card .content a {
@@ -125,7 +120,7 @@
 
 @media (max-width: 768px) {
     .container .card {
-        max-width: 300px;
+        max-width: 335px;
         flex-direction: column;
         height: auto;
     }
