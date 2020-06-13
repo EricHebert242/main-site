@@ -1,5 +1,10 @@
-.portfolios {
-    color: rgb(125,125,125);
+.portfolio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #222;
+    min-height: 100vh;
+    /*color: rgb(125,125,125);
     background-color: $mainDarkBlue;
     height: auto;
     padding-top: 1px;
@@ -91,7 +96,7 @@
                 font-Size: 1rem;
             }
         }
-    }
+    }*/
 }
 
 
