@@ -1,3 +1,8 @@
+TODO: 
+- Update this readme
+- Add Email and Github links at footer
+
+
 # main-site
 
 - create package.json file by typing: npm init -y
