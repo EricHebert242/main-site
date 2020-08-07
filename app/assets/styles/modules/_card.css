@@ -12,7 +12,8 @@
 
 .container {
     position: relative;
-    width: 1000px;
+    width: 100%;
+    max-width: 1000px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -84,7 +85,7 @@
     right: 0;
     width: calc(100% - 75px);
     height: 100%;
-    padding: 20px;
+    padding: 0 15px;
     display: flex;
     justify-content: center;
     align-items: center;
