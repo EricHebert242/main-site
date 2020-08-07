@@ -1,6 +1,7 @@
 TODO: 
 - Update this readme
 - Add Email and Github links at footer
+- Move css colors to _variables.css
 
 
 # main-site
