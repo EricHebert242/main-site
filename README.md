@@ -1,6 +1,7 @@
 TODO: 
 - Update this readme
-- Add Email and Github links at footer
+- Connect header action buttons with proper sections
+- Capture clicks on Email and Github footer links and launch the appropriate action
 - Move css colors to _variables.css
 
 
