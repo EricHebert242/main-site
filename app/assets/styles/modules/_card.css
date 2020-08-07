@@ -98,7 +98,8 @@
 
 .container .card .content a {
     display: inline-block;
-    margin-top: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
     padding: 5px 10px;
     background: #333;
     text-decoration: none;
@@ -146,5 +147,9 @@
     .container .card .content {
         position: relative;
         width: 100%;
+    }
+    .container .card .content a {
+        margin-top: 5px;
+        margin-bottom: 15px;
     }
 }
