@@ -1,6 +1,5 @@
 TODO: 
 - Update this readme
-- Connect header action buttons with proper sections
 - Capture clicks on Email and Github footer links and launch the appropriate action
 - Move css colors to _variables.css
 
