@@ -1,7 +1,10 @@
+html, body {
+  width: auto !important;
+  overflow-x: hidden !important;
+}
+
 html {
   scroll-behavior: smooth;
-  display:  grid;
-  overflow-x: hidden;
 }
 
 body {
