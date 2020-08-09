@@ -1,5 +1,7 @@
 TODO: 
 - Update this readme
+- Bug when scrollingX on mobile -> White space appear on right
+- Bug on mobile when menu open and scrolling -> nav button state not updated
 - Capture clicks on Email and Github footer links and launch the appropriate action
 - Move css colors to _variables.css
 
