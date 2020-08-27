@@ -14,4 +14,4 @@ TODO:
 - add entry property that point to the main entry js file
 - open package.json
    - add dev property with "webpack" as value inside scripts object
-- type: npm run dev
+- type: npm run dev 
