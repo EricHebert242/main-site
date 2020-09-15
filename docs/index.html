@@ -1,113 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no" /> 
-  <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700' rel='stylesheet' type='text/css'>
-  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <title>EricHebert.com</title>
-  <meta name="keywords" content="Eric, Hebert, Senior software developer, web developer">
-  <meta name="description" content="Personnal site of Eric Hebert, Senior software developer.">
-<link href="styles.d649ecd8526c3c417fec.css" rel="stylesheet"></head>
-<body>
-  <header class="site-header">
-    <div class="wrapper">
-      <div class="site-header__name">ERIC HEBERT</div>
-      <div class="site-header__title">&lt;Coder/&gt;</div>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <title>EricHebert.com</title>
+    <meta name="keywords" content="Eric, Hebert, Senior software developer, web developer" />
+    <meta name="description" content="Personnal site of Eric Hebert, Senior software developer." />
+  <link href="styles.d649ecd8526c3c417fec.css" rel="stylesheet"></head>
+  <body>
+    <header class="site-header">
+      <div class="wrapper">
+        <div class="site-header__name">ERIC HEBERT</div>
+        <div class="site-header__title">&lt;Coder/&gt;</div>
 
-      <div class="site-header__menu-icon">
-        <div class="site-header__menu-icon__middle"></div>
+        <div class="site-header__menu-icon">
+          <div class="site-header__menu-icon__middle"></div>
+        </div>
+
+        <div class="site-header__menu-content">
+          <nav class="primary-nav primary-nav--pull-right">
+            <ul>
+              <li><a href="#home" id="home-link">Home</a></li>
+              <li><a href="#portfolio" id="portfolio-link">Portfolio</a></li>
+              <li><a href="#contact" id="contact-link">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
       </div>
+    </header>
 
-      <div class="site-header__menu-content">
-        <nav class="primary-nav primary-nav--pull-right">
-          <ul>
-            <li><a href="#home" id="home-link">Home</a></li>
-            <li><a href="#portfolio" id="portfolio-link">Portfolio</a></li>
-            <li><a href="#contact" id="contact-link">Contact</a></li>
-          </ul>
-        </nav>
+    <div id="home" class="home page-section" data-matching-link="#home-link">
+      <picture>
+        <img srcset="assets/images/home-background-small.jpg 625w, assets/images/home-background.jpg 1920w" alt="Home background" class="home__image" />
+      </picture>
+      <div class="home__content">
+        <p class="home__content__description">I am a senior software developer with many years of experience in the industry. I have been using many programming languages and technologies for desktop, back-end and front-end platforms. I am used to work with colleagues around the world. Based in Montreal, Canada, I also worked in U.K.</p>
       </div>
     </div>
-  </header>
 
-  <div id="home" class="home page-section" data-matching-link="#home-link">
-    <picture>
-      <img srcset="assets/images/home-background-small.jpg 625w, assets/images/home-background.jpg 1920w" alt="Home background" class="home__image">
-    </picture>
-  <div class="home__content">
-    <p class="home__content__description">I am a senior software developer with many years of experience in the industry. I have been using many programming languages and technologies for desktop, back-end and front-end platforms. I am used to work with colleagues around the world. Based in Montreal, Canada, I also worked in U.K.</p>
-  </div>
-  </div>
-
-  <div id="portfolio" class="portfolio page-section" data-matching-link="#portfolio-link">
-    <div class="portfolio__title">Portfolio</div>
-    <div class="container">
-      <div class="card">
+    <div id="portfolio" class="portfolio page-section" data-matching-link="#portfolio-link">
+      <div class="portfolio__title">Portfolio</div>
+      <div class="container">
+        <div class="card">
           <div class="imgBx" data-text="Full Stack">
-              <!--img src="FullStack.png"-->
+            <!--img src="FullStack.png"-->
           </div>
           <div class="content">
-              <div>
-                  <h3>Full stack web project</h3>
-                  <p class="description">ReactJS, Redux, MaterializeCSS, Progressive, Passport, Google Login, Stripe, Sendgrid, Node.js, Express, MongoDB, Mongoose, Heroku...</p>
-                  <a href="https://quiet-plateau-40771.herokuapp.com/">Launch Demo</a>
-              </div>
+            <div>
+              <h3>Full stack web project</h3>
+              <p class="description">ReactJS, Redux, MaterializeCSS, Progressive, Passport, Google Login, Stripe, Sendgrid, Node.js, Express, MongoDB, Mongoose, Heroku...</p>
+              <a href="https://quiet-plateau-40771.herokuapp.com/">Launch Demo</a>
+            </div>
           </div>
-      </div>
-      <div class="card">
+        </div>
+        <div class="card">
           <div class="imgBx" data-text="Modern workflow">
-              <!--img src="PWA.png"-->
+            <!--img src="PWA.png"-->
           </div>
           <div class="content">
-              <div>
-                  <h3>Modern workflow web project</h3>
-                  <p class="description">Git, GitHub, Node.js, Webpack, BEM, PostCSS, Progressive, ReactJS, Axios, Lazysizes, Normalize.css, AWS Lambda, Netlify...</p>
-                  <a href="https://focused-dijkstra-df7291.netlify.app/">Launch Demo</a>
-              </div>
+            <div>
+              <h3>Modern workflow web project</h3>
+              <p class="description">Git, GitHub, Node.js, Webpack, BEM, PostCSS, Progressive, ReactJS, Axios, Lazysizes, Normalize.css, AWS Lambda, Netlify...</p>
+              <a href="https://focused-dijkstra-df7291.netlify.app/">Launch Demo</a>
+            </div>
           </div>
-      </div>
-      <div class="card">
-        <div class="imgBx" data-text="Manage projects TS">
+        </div>
+        <div class="card">
+          <div class="imgBx" data-text="Manage projects TS">
             <!--img src="PWA.png"-->
-        </div>
-        <div class="content">
+          </div>
+          <div class="content">
             <div>
-                <h3>Typescript with advanced concepts project</h3>
-                <p class="description">Typescript, OOP, Decorators, Generics, HTML drag & drop, Git, GitHub, Webpack...</p>
-                <a href="https://erichebert242.github.io/typescriptmanageprojects/">Launch Demo</a>
+              <h3>Typescript with advanced concepts project</h3>
+              <p class="description">Typescript, OOP, Decorators, Generics, HTML drag & drop, Git, GitHub, Webpack...</p>
+              <a href="https://erichebert242.github.io/typescriptmanageprojects/">Launch Demo</a>
             </div>
+          </div>
         </div>
-      </div>
-      <div class="card">
-        <div class="imgBx" data-text="Map TS">
+        <div class="card">
+          <div class="imgBx" data-text="Map TS">
             <!--img src="PWA.png"-->
-        </div>
-        <div class="content">
+          </div>
+          <div class="content">
             <div>
-                <h3>Google Map using Typescript</h3>
-                <p class="description">Typescript, OOP, Generics, Google Geocode and Maps, Axios, Git, GitHub, Webpack...</p>
-                <a href="https://erichebert242.github.io/typescriptmap/">Launch Demo</a>
+              <h3>Google Map using Typescript</h3>
+              <p class="description">Typescript, OOP, Generics, Google Geocode and Maps, Axios, Git, GitHub, Webpack...</p>
+              <a href="https://erichebert242.github.io/typescriptmap/">Launch Demo</a>
             </div>
+          </div>
         </div>
-      </div>
-      <div class="card">
-        <div class="imgBx" data-text="React TS">
+        <div class="card">
+          <div class="imgBx" data-text="React TS">
             <!--img src="PWA.png"-->
-        </div>
-        <div class="content">
+          </div>
+          <div class="content">
             <div>
-                <h3>React Todo project with Typescript, Webpack and Babel</h3>
-                <p class="description">Typescript, OOP, Generics, Git, GitHub, Webpack, Babel...</p>
-                <a href="https://erichebert242.github.io/TS-React-Webpack-Babel-TodoProject/">Launch Demo</a>
+              <h3>React Todo project with Typescript, Webpack and Babel</h3>
+              <p class="description">Typescript, OOP, Generics, Git, GitHub, Webpack, Babel...</p>
+              <a href="https://erichebert242.github.io/TS-React-Webpack-Babel-TodoProject/">Launch Demo</a>
             </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="imgBx" data-text="React Hooks">
+            <!--img src="PWA.png"-->
+          </div>
+          <div class="content">
+            <div>
+              <h3>React Social Media application with hooks</h3>
+              <p class="description">React, React router, Lazy load, Transition group, Immer, NodeJS, Express, MongoDB, Git, GitHub, Webpack, Babel, Heroku, Netlify...</p>
+              <a href="https://lucid-ptolemy-8cf5f8.netlify.app/">Launch Demo</a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-  <div id="contact" class="site-footer page-section" data-matching-link="#contact-link">
-    <i class="site-footer__media-icon fa fa-envelope-o fa-2x" aria-hidden="true" title="Send Email"></i>
-    <i class="site-footer__media-icon fa fa-github fa-2x" aria-hidden="true" title="Personal Github"></i>
-  </div>
-<script type="text/javascript" src="vendors~main.a6158e3db45440546564.js"></script><script type="text/javascript" src="main.d649ecd8526c3c417fec.js"></script></body>
+    <div id="contact" class="site-footer page-section" data-matching-link="#contact-link">
+      <i class="site-footer__media-icon fa fa-envelope-o fa-2x" aria-hidden="true" title="Send Email"></i>
+      <i class="site-footer__media-icon fa fa-github fa-2x" aria-hidden="true" title="Personal Github"></i>
+    </div>
+  <script type="text/javascript" src="vendors~main.a6158e3db45440546564.js"></script><script type="text/javascript" src="main.d649ecd8526c3c417fec.js"></script></body>
 </html>
